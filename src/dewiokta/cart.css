@@ -1,0 +1,280 @@
+body{
+    background: url(img/background2.jpg);
+    background-size: 200px;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    font-family: sans-serif;
+    background-color: #f4f4f4;
+  
+  }
+  
+  .container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  header{
+    background: linear-gradient(to right , skyblue, pink);
+    padding-top: 10px;
+    min-height: 70px;
+  }
+  img{
+      width: 80px;
+      height: 80px;
+  }
+  .brand{
+      color: black;
+      font-size: 50px;
+      text-align: center;
+  }
+  .logo{
+    margin-top: 0;
+    padding-top: 0;
+    text-align: left;
+  }
+  
+  header #brand{
+    float: left;
+  }
+  header #brand h1{
+    float: left;
+    color: purple;
+    font-family: sans-serif;
+    font-style: bold;
+    
+  }
+  
+  header #brand img{
+    float: left;
+    padding-top: 0;
+  }
+  header nav{
+    float: right;
+    margin-top: 10px;
+  }
+  
+  header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+  }
+  header a{
+    color: grey;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+  
+  }
+  
+  header #brand, header .active a{
+    color: grey;
+    font-weight: bold;
+  
+  }
+  
+  header a:hover {
+    color: palevioletred;
+    font-weight: bold;
+  }
+
+  #boxes{
+    margin-top: 20px;
+  }
+  
+  #boxes .box{
+    float: left;
+    text-align: center;
+    width: 20%;
+    padding: 10px;
+  }
+  #boxes .box img{
+    width: 100px;
+  }
+  #brand .wlc{
+    text-align: center;
+  }
+    footer{
+      background: linear-gradient(to right , skyblue, pink);
+      margin-top: 20px;
+      padding: 10px;
+      text-align: center;
+      color: purple;
+  
+    }
+    footer p{text-align: center;}
+    @media (max-width: 768px){
+      header #brand,
+      header nav,
+      header nav li 
+      #aeri,
+      #boxes .box
+      {
+         float: none;
+         text-align: center;
+         width: 100%;
+      }
+    }
+   .table{
+     background-color: white;
+        border-right: solid;
+        padding-top: 10px;
+        padding-right: 10px;
+        padding-left: 10px;
+        font-family: sans-serif;
+        border-collapse: collapse;
+        width: 70%;
+        border: 1px solid white;
+        margin-top: 50px;
+        margin-left: 10%;
+
+    }
+    .table tr th{
+      background-color: silver;
+      font-weight: normal;
+    }
+    .table,th,td{
+      padding: 8px 20px;
+      text-align: center;
+    }
+
+    .button {
+      margin-left: 10%;
+      border: white;
+      color: white;
+      border-radius: 5px;
+      display: inline-block;
+      background-color: blueviolet;
+      font-family: sans-serif;
+      font-style: normal;
+      cursor: pointer;
+      font-weight: bold;
+      padding: 5px 5px;
+    }
+    .cek{
+      border: white;
+      color: white;
+      border-radius: 5px;
+      display: inline-block;
+      background-color: blue;
+      font-family: sans-serif;
+      font-style: normal;
+      cursor: pointer;
+      font-weight: bold;
+      padding: 5px 5px;
+    }
+    .cek:hover{
+      background-color: red;
+    }
+    .button:hover{
+      background-color: green;
+    }
+    .button1{
+      margin-left: 10%;
+      border: white;
+      color: white;
+      border-radius: 5px;
+      display: inline-block;
+      background-color: red;
+      font-family: sans-serif;
+      font-style: normal;
+      cursor: pointer;
+      padding: 5px 5px;
+    }
+    h5{
+      margin-left: 10%;
+    }
+    .table-2{
+        background-color: white;
+        border-right: solid;
+        padding-top: 10px;
+        padding-right: 10px;
+        padding-left: 10px;
+        font-family: sans-serif;
+        border-collapse: collapse;
+        width: 70%;
+        border: 1px solid white;
+        margin-top: 50px;
+        margin-left: 10%;
+    }
+    .table-1{
+      background-color: skyblue;
+      border-right: solid;
+      padding-top: 10px;
+      padding-right: 10px;
+      padding-left: 10px;
+      font-family: sans-serif;
+      border-collapse: collapse;
+      width: 30%;
+      border: 1px solid white;
+      margin-top: 50px;
+      margin-left: 10%;
+  }
+    .table .col-md-3{
+      background-color: silver;
+      font-weight: normal;
+    }
+
+    tfoot th{
+      background-color: silver;
+      font-weight: normal;
+      width: 70%;
+    }
+    tfoot th y{
+      float: left;
+    }
+    .klik{
+      margin-left: 10%;
+      border: white;
+      color: white;
+      border-radius: 5px;
+      display: inline-block;
+      background-color: yellowgreen;
+      font-family: sans-serif;
+      font-style: normal;
+      cursor: pointer;
+      padding: 5px 5px;
+    }
+
+    .konten{
+      text-align: center;
+      display: inline-block;
+      border: thin;
+      margin-left: 10%;
+      margin-top: 50px;
+      padding: 2px 2px 2px 2px ;
+      background-color: hotpink;
+    }
+    .kotak{
+      display: inline-block;
+      border: thin;
+      margin-top: 30px;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-bottom: 20%;
+    }
+    .col-md-3 img{
+      width: 300px;
+      height: 300px;
+      margin-left:70px;
+      background-color: wheat;
+    }
+    .col-md-3{
+      width: 350px;
+    }
+    .kotak .isi .col-md-4{
+      float: left;
+    }
+    .col-md-4 .buy{
+      border: white;
+      color: black;
+      border-radius: 5px;
+      display: inline-block;
+      background-color: silver;
+      font-family: sans-serif;
+      font-weight: bold;
+      cursor: pointer;
+      padding: 5px 15px;
+    }

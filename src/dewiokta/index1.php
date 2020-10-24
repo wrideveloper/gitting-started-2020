@@ -11,7 +11,7 @@ session_start();
 </head>
 <body>
 <?php
-    include 'konek.php';
+    include 'konek.php'; // konek.php -> file yang berisi koneksi dengan db
     if (!isset($_SESSION["user"])){
         header("location:login.php");
     }
