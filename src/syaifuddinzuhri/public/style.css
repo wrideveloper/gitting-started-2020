@@ -1,0 +1,136 @@
+html,
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+h1 {
+  margin: 40px auto;
+  color: #0074f8;
+  text-align: center;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+li {
+  padding: 6px 10px;
+  border: 1px solid #eee;
+  margin: 30px auto;
+}
+
+li h4 {
+  color: #004ff8;
+  margin: 0;
+  text-transform: capitalize;
+}
+
+li p {
+  color: #333;
+  margin: 8px 0 0;
+}
+
+header {
+  background: rgb(247, 247, 247);
+  padding: 30px;
+}
+
+form {
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  color: #333;
+  margin: 16px 0 6px;
+}
+
+input,
+select {
+  padding: 6px;
+  /* border: 1px solid #e1e1e1; */
+  outline: none;
+  border: 0;
+  border-radius: 4px;
+}
+
+button:focus {
+  outline: none;
+  border: 0;
+}
+
+input:focus,
+select:focus {
+  outline: none;
+  border: 0;
+
+  box-shadow: 0px 0px 4px #004ff8;
+}
+
+.field {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+button {
+  color: white;
+  border: 0;
+  background: #004ff8;
+  padding: 6px;
+  min-width: 80px;
+  border-radius: 4px;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background: #0149e6;
+  transform: translateY(-3px);
+}
+
+header a {
+  text-align: center;
+  display: block;
+  color: #999;
+  margin-top: 40px;
+  font-size: 0.7em;
+}
+
+.alert {
+  display: none;
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  padding: 15px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.alert>.close {
+  cursor: pointer;
+  float: right;
+}
+
+.alert.error {
+  background-color: rgba(255, 6, 27, 0.2);
+}
+
+.alert.success {
+  background-color: rgba(8, 235, 129, 0.2);
+}
+
+.alert small {
+  float: left;
+  color: #000;
+}
