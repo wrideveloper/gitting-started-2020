@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #d4b897;
+}
+
+nav {
+    background-color: #23180D;
+    text-decoration: none;
+    position: sticky;
+    top: 0;
+    padding: 15px;
+}
+
+nav ul {
+    margin-left: 30px;
+}
+
+nav li {
+    list-style-type: none;
+    display: inline;
+    margin-right: 40px;    
+}
+
+nav li:hover {
+    text-decoration: underline;
+}
+
+nav a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+header {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url(img/header-pie.jpg);
+    padding: 50px 0 70px 0;    
+}
+
+.header-caption {
+    color: white;
+    text-align: center;
+    line-height: 1.75;
+    font-size: larger;
+    padding: 30px;
+}
+
+#content {
+    text-align: center;
+    margin: 20px 40px;
+    border-radius: 7px;
+    padding: 20px;
+    margin: 40px auto;
+    background-color: white;
+    width: 85%;
+}
+
+#content h1 {
+    margin: 15px;
+    text-decoration: underline;
+}
+
+.card {
+    border-radius: 7px;
+    border: solid #23180D;
+    width: 300px;
+    height: 330px;
+    padding: 20px;
+    display: inline-block;
+    margin: 20px;
+}
+
+img{
+    width: 200px;
+    margin: 20px;
+}
+
+.button {
+    background-color: white;
+    color: black;
+    border: 1.5px solid #23180D;
+    font-size: 15px;
+    padding: 10px 13px;
+    border-radius: 10px;
+    font-weight: 450;
+}
+
+.button:hover {
+    background-color: #23180D;
+    color: white;
+}
+
+footer {
+    background-color: #23180D;
+    padding: 20px;
+    color: white;
+    text-align: center;    
+}
